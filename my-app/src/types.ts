@@ -30,3 +30,5 @@ export type TaskState = {
   tasks: Task[];
   users: User[];
 };
+
+export type TPage = "tasks" | "users";
